@@ -36,7 +36,7 @@ function initROS() {
 
     cmdVelPub = new ROSLIB.Topic({
         ros: ros,
-        name: 'cmd_vel',
+        name: 'big_brother/cmd_vel',
         messageType: 'geometry_msgs/Twist',
         queue_size: 10
     });
